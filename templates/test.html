@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>classifier</title>
+</head>
+<body>
+    <h1>
+        Input your comment<br>
+        I wll predict the rate<br>
+    </h1>
+    <p>
+        Rating 1 means the worst, and 10 means the best.
+    </p>
+
+    <form action="/predict" method="POST">
+      Your Comment: <input type="text" name="comment"/><br>
+      <input type="submit" value="submit" />
+    </form>
+    <h3>The predicted rating : {{ rating }} </h3>
+</body>
+</html>
