@@ -29,5 +29,5 @@ Templates folder has html files.
 ## Import directory and templates forders to pythonanywhere
 
 ## Ready to deploy your website
-Example: http://sunghwa.pythonanywhere.com/
+<img src=walkthrough.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
